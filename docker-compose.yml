@@ -1,0 +1,9 @@
+version: '2'
+services:
+  notebook:
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    build:
+      context: .
